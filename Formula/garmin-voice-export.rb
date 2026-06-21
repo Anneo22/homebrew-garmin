@@ -5,8 +5,8 @@ class GarminVoiceExport < Formula
   sha256 "2b06375ef1101420c263dc7e893292375cf239641b3b257cc40bc0e4edd3cb64"
   license "MIT"
 
-  depends_on :macos
   depends_on "gphoto2"
+  depends_on :macos
   depends_on "terminal-notifier"
 
   def install

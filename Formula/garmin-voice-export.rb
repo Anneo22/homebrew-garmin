@@ -1,8 +1,8 @@
 class GarminVoiceExport < Formula
   desc "Import Garmin watch voice notes to your Mac, automatically"
   homepage "https://github.com/Anneo22/garmin-voice-export"
-  url "https://github.com/Anneo22/garmin-voice-export/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "2b06375ef1101420c263dc7e893292375cf239641b3b257cc40bc0e4edd3cb64"
+  url "https://github.com/Anneo22/garmin-voice-export/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "9b2be5eab91f2dc9005162b79722cf35dfc5977cdefcc2149a1ee395376f9e61"
   license "MIT"
 
   depends_on "gphoto2"

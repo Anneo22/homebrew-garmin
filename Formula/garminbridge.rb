@@ -30,7 +30,7 @@ class Garminbridge < Formula
 
     libexec.install Dir["*"]
     (bin/"garminbridge").write_env_script "#{libexec}/bin/garmin-voice", {}
-    (bin/"garmin-voice").write_env_script "#{libexec}/bin/garmin-voice", {}   # legacy alias
+    (bin/"garmin-voice").write_env_script "#{libexec}/bin/garmin-voice", {} # legacy alias
     (bin/"garminbridge-setup").write <<~SH
       #!/bin/bash
       exec "#{libexec}/install.sh" "$@"

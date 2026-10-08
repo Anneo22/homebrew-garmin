@@ -2,7 +2,7 @@ class Garminbridge < Formula
   desc "Reliable Garmin-to-Mac bridge: voice notes and activities, automatically"
   homepage "https://github.com/Anneo22/garminbridge"
   url "https://github.com/Anneo22/garminbridge/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "f91bcc86f430a5f14dede56283e313d5fd08ab4f07e894ae526c8f479a4486dd"
+  sha256 "47ad015f23f65846afb274aac75d473ef887227ebb2ca6957e13b912e9f85d4b"
   license "MIT"
 
   depends_on "gphoto2"
